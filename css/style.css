@@ -2928,6 +2928,7 @@ left: 0;
 	.coming-soon .logo{
 	margin:0;
 	padding:0;
+    max-width: 100%;
 	}
 	
 	.coming-soon h2{
