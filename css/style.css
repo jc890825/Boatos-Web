@@ -335,6 +335,11 @@ header.smaller:not(.header-bottom):not(.side-header):not(.force-header-mobile)
     height: 70px;
 }
 
+.logo_2 {
+    width: 10rem;
+    height: auto;
+}
+
 .logo-smaller div#logo {
     width: 150px;
     height: 30px;
@@ -353,6 +358,11 @@ header.smaller:not(.header-bottom):not(.side-header):not(.force-header-mobile)
 }
 .logo-small {
     margin-bottom: 20px;
+}
+
+.logo-small_2 {
+    width: 7rem;
+    height: auto;
 }
 
 header.de_header_2 {
