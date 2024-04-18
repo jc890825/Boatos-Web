@@ -16,7 +16,7 @@ background:url(../images/background/subheader.jpg)top fixed;
 }
 
 /* background settings for page subheader */
-.page-projects #subheader{background-image:url(../images/background/subheader-1.jpg);}
+.page-projects #subheader{background-image:url(../images/background/subheader.jpg);}
 .page-projects-alt #subheader{background-image:url(../images/background/subheader-1b.jpg);}
 .page-services #subheader{background-image:url(../images/background/subheader-2.jpg);}
 .page-about #subheader{background-image:url(../images/background/subheader-3.jpg);}
