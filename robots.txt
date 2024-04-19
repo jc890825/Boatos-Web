@@ -2,3 +2,6 @@ User-agent: *
 Disallow: 
 Disallow: /cgi-bin/
 Sitemap: https://grupoboatos.com/sitemap.xml
+
+
+sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/example.com
