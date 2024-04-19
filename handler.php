@@ -2,10 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-/*
-Tested working with PHP5.4 and above (including PHP 7 )
-
- */
+/* Tested working with PHP5.4 and above (including PHP 7 ) */
 require_once './vendor/autoload.php';
 
 use FormGuide\Handlx\FormHandler;
@@ -20,7 +17,7 @@ $validator->field('Message')->maxLength(6000);
 
 
 $pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('copy-your-secret-key-here');
+$pp->getReCaptcha()->initSecretKey('6LczpsApAAAAAFr_j0ufoguNKBhP6ksgF3fadaQs');
 
 
 $pp->sendEmailTo('oscar.valdes@grupoboatos.com');
