@@ -1,62 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
-<url>
-  <loc>https://grupoboatos.com/</loc>
-  <lastmod>2024-04-18T19:45:02+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/index.html</loc>
-  <lastmod>2024-04-18T19:45:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/contacto.html</loc>
-  <lastmod>2024-04-18T21:10:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/proyectos.html</loc>
-  <lastmod>2024-04-18T21:10:27+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/mondo-gastrobar.html</loc>
-  <lastmod>2024-04-18T19:45:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/lagrimas-club.html</loc>
-  <lastmod>2024-04-16T22:12:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/bianchini-studio.html</loc>
-  <lastmod>2024-04-16T22:12:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/project-details-youtube.html</loc>
-  <lastmod>2024-04-16T22:12:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/project-details-vimeo.html</loc>
-  <lastmod>2024-04-16T22:12:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://grupoboatos.com/project-details.html</loc>
-  <lastmod>2024-04-16T22:12:48+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+    <url>
+        <loc>https://grupoboatos.com/</loc>
+        <lastmod>2024-04-24T21:24:17+00:00</lastmod>
+        <priority>1.00</priority>
+    </url>
+    <url>
+        <loc>https://grupoboatos.com/index.html</loc>
+        <lastmod>2024-04-24T21:24:17+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://grupoboatos.com/contacto.html</loc>
+        <lastmod>2024-04-24T21:24:17+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://grupoboatos.com/proyectos.html</loc>
+        <lastmod>2024-04-24T21:24:17+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://grupoboatos.com/mondo-gastrobar.html</loc>
+        <lastmod>2024-04-24T21:24:17+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://grupoboatos.com/lagrimas-club.html</loc>
+        <lastmod>2024-04-24T21:24:17+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://grupoboatos.com/bianchini-studio.html</loc>
+        <lastmod>2024-04-24T21:24:17+00:00</lastmod>
+        <priority>0.80</priority>
+    </url>
 
 
 </urlset>
