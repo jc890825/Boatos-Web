@@ -23,7 +23,7 @@ $pp = new FormHandler();
 
 /* Validaciones del formulario del lado del servidor */
 $validator = $pp->getValidator();
-$validator->fields(['Name','Email', 'phone'])->areRequired()->maxLength(50);
+$validator->fields(['Area_Size', 'Name', 'Email', 'phone'])->areRequired()->maxLength(50);
 $validator->field('Email')->isEmail();
 $validator->field('Message')->maxLength(6000);
 
@@ -41,7 +41,7 @@ $validator->field('Message')->maxLength(6000);
 /** Nueva implementación de envío de correo y transferencia de valor a la función ajax del mensaje de éxito o error. */
 
 $subject = 'Nuevo contacto de la web'; // Subject of your email
-$to = 'oscar.valdes@grupoboatos.com';  //Recipient's E-mail
+$to = 'soporte@wpcache.es';  //Recipient's E-mail
 $emailTo = $_REQUEST['Email'];
 
 /* Se incluyen los campos de tipo de propiedad y tamanno total de área. */
@@ -59,7 +59,7 @@ $headers .= "Content-type: text/html; charset=iso-8859-1";
 $headers .= "From: ".$name.'<'.$email.'>'."\r\n"; // Sender's E-mail
 $headers .= "Return-Path:"."From:" . $email;
 
-$message .= 'Nuevo mensaje desde Grupo Boatos' . "\n";
+$message = 'Nuevo mensaje desde Grupo Boatos' . "\n";
 $message .= 'Tipo de propiedad : ' . $property_type . "\n";
 $message .= 'Tamaño total del área: ' . $area_size . ' Metros (m2)' . "\n";
 $message .= 'Nombre: ' . $name . "\n";
