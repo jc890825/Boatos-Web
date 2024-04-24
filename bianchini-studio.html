@@ -23,22 +23,18 @@
     <link rel="stylesheet" href="css/bg.css" type="text/css">
 
     <!-- color scheme -->
-    <link rel="stylesheet" href="css/colors/yellow.css" type="text/css" id="colors">
+	<link rel="stylesheet" href="css/colors/yellow.css" type="text/css" id="colors">
     
     <!-- revolution slider -->
     <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css">
     <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
 
-    <!-- load fonts -->
-    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
-    <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
-    <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
-
 </head>
 
-<body class="page-contact">
+<body>
 
     <div id="wrapper">
+        
         <!-- header begin -->
         <header>
             <div class="container">
@@ -59,13 +55,13 @@
                                     <ul id="mainmenu">
                                         <li><a href="index.html">Inicio<span></span></a>
                                         </li>
-                                        <li><a href="project-contained-2-cols.html">Proyectos</a>
+                                        <li><a href="proyectos.html">Proyectos</a>
                                             <ul>
-                                                <li><a href="project-details-2.html">Lágrimas Club</a>
+                                                <li><a href="lagrimas-club.html">Lágrimas Club</a>
                                                 </li>
-                                                <li><a href="project-details-1.html">Mondo Gastrobar</a>
+                                                <li><a href="mondo-gastrobar.html">Mondo Gastrobar</a>
                                                 </li>
-                                                <li><a href="project-details-3.html">Bianchini Studio</a>
+                                                <li><a href="bianchini-studio.html">Bianchini Studio</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -104,7 +100,7 @@
                                                 </li>
                                             </ul>
                                         </li>-->
-                                        <li><a href="renovation-form.html">Contáctanos</a>
+                                        <li><a href="contacto.html">Contáctanos</a>
                                         </li>
                                     </ul>
                                 </nav>
@@ -116,110 +112,170 @@
 			</div>
         </header>
         <!-- header close -->
-
-        <!-- subheader -->
-        <section id="subheader" data-speed="8" data-type="background">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Presupuesto</h1>
-                        
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- subheader close -->
-
+        
         <!-- content begin -->
-        <div id="content">
+        <div id="content" class="no-top no-bottom mt40 sm-mt0">
+            <section>
+                <div class="container">
+                    <div class="row">
+						<div class="col-md-12 text-center">
+							<h2>Bianchini Studio</h2>
+						</div>
+                        <div class="col-md-6 mt40">
+							<div class="twentytwenty-container">
+							  <img src="images/boatos/portfolio/boatos_bianchini_4.jpg" alt="" class="img-responsive" />							  
+							  <img src="images/boatos/portfolio/boatos_bianchini_1.jpg" alt="" class="img-responsive" />
+							</div>
+						</div>
+						<div class="col-md-6 mt40"> <!-- Nueva columna para texto -->
+                    <div class="project-info">
 
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-md-8 offset-md-2">
-                        <form name="contactForm" id='contact_form' method="post">
-                            <div id="step-1" class="row">
-                                <div class="col-md-12 mb30">
-                                    <h4><i class="fa fa-home id-color"></i>¿Cuál es el tipo de tu propiedad?</h4>
-
-                                    <div class="de_form de_radio">
-                                        <div class="radio-img">
-                                            <input id="radio-1a" name="Property_Type" type="radio" value="Residential" checked="checked">
-                                            <label for="radio-1a"><img src="images/select-form/1.jpg">Residencial</label>
-                                        </div>
-
-                                        <div class="radio-img">
-                                            <input id="radio-1c" name="Property_Type" type="radio" value="Commercial">
-                                            <label for="radio-1c"><img src="images/select-form/3.jpg">Comercial</label>
-                                        </div>
-
-                                        <div class="radio-img">
-                                            <input id="radio-1e" name="Property_Type" type="radio" value="Other">
-                                            <label for="radio-1e"><img src="images/select-form/5.jpg">Otros</label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                
-
-                                <div class="col-md-6 mb10">
-                                    
-                                    
-                                </div>
-
-                            </div>
-
-                            <div id="step-2" class="row">
-                                <h4><i class="fa fa-user id-color"></i>Introduce tus datos.</h4>
-
-                                <div class="col-md-6">
-                                    <div id='name_error' class='error'>Por favor, introduce tu nombre.</div>
-                                    <div>
-                                        <input type='text' name='Name' id='name' class="form-control" placeholder="Nombre" required>
-                                    </div>
-
-                                    <div id='email_error' class='error'>Por favor, introduce una dirección de correo electrónico válida.</div>
-                                    <div>
-                                        <input type='email' name='Email' id='email' class="form-control" placeholder="Email" required>
-                                    </div>
-
-                                    <div id='phone_error' class='error'>Por favor, introduce tu número de teléfono.</div>
-                                    <div>
-                                        <input type='text' name='phone' id='phone' class="form-control" placeholder="Teléfono" required>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div id='message_error' class='error'>Por favor, introduce tu mensaje.</div>
-                                    <div>
-                                        <textarea name='message' id='message' class="form-control" placeholder="Mensaje" required></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-<!--                                    <div class="g-recaptcha" data-sitekey="6LczpsApAAAAAFr_j0ufoguNKBhP6ksgF3fadaQs"></div>-->
-                                    <p id='submit' class="mt20">
-                                        <input type='submit' id='send_message' value='Enviar' class="btn btn-line">
-                                    </p>
-                                </div>
-                            </div>
-                        </form>
-
-                        <div id="success_message" class='success'>
-                            Tu mensaje ha sido enviado con éxito.
-                            Actualiza esta página si deseas enviar más mensajes.
-                        </div>
-                        <div id="error_message" class='error'>
-                            Lo sentimos, hubo un error al enviar tu formulario.
-                            Actualiza esta página para enviar el mensaje correctamente.
-                        </div>
-
+                <div class="details">
+                    <div class="info-text">
+                        <span class="title">Date</span>
+                        <span class="val">March 2014</span>
                     </div>
 
-                </div>
-            </div>
-        </div>
+                    <div class="info-text">
+                        <span class="title">Location</span>
+                        <span class="val">Paris, France</span>
+                    </div>
 
-       <!-- footer begin -->
+                    <div class="info-text">
+                        <span class="title">Value</span>
+                        <span class="val">$10,000</span>
+                    </div>
+
+                    <div class="info-text">
+                        <span class="title">Client</span>
+                        <span class="val">Century 21</span>
+                    </div>
+
+                    <div class="info-text">
+                        <span class="title">Category</span>
+                        <span class="val">Residential</span>
+                    </div>
+                </div>
+
+               
+
+                <p>
+                    <h4>Our Solutions</h4>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+               
+                        
+                        
+            </div>
+                </div>
+                    </div>
+                </div>
+            </section>
+			
+        </div>
+		
+		<!-- section begin -->
+            <section id="section-portfolio" class="no-top no-bottom" aria-label="section-portfolio">
+                <div class="container">
+
+                    <div class="spacer-double"></div>
+
+                    
+
+
+
+                    <div id="gallery" class="row grid_gallery gallery de-gallery wow fadeInUp" data-wow-delay=".1s">
+
+                        <!-- gallery item -->
+                        <div class="col-md-4 item residential">
+                            <div class="picframe">
+                                <a class="image-popup-gallery" href="images/boatos/portfolio/boatos_bianchini_2.jpg">
+                                <span class="overlay">
+                                    
+                                </span>
+                            </a>
+                                <img src="images/boatos/portfolio/boatos_bianchini_2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+
+                        <!-- gallery item -->
+                        <div class="col-md-4 item hospitaly">
+                            <div class="picframe">
+                                <a class="image-popup-gallery" href="images/boatos/portfolio/boatos_bianchini_7.jpg">
+                                <span class="overlay">
+                                    
+                                </span>
+                            </a>
+
+                                <img src="images/boatos/portfolio/boatos_bianchini_7.jpg" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+
+                        <!-- gallery item -->
+                        <div class="col-md-4 item hospitaly">
+                            <div class="picframe">
+                                <a class="image-popup-gallery" href="images/boatos/portfolio/boatos_bianchini_3.jpg">
+                                <span class="overlay">
+                                    
+                                </span>
+                            </a>
+
+                                <img src="images/boatos/portfolio/boatos_bianchini_3_2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+
+                        <!-- gallery item -->
+                        <div class="col-md-4 item residential">
+                            <div class="picframe">
+                                <a class="image-popup-gallery" href="images/boatos/portfolio/boatos_bianchini_8.jpg">
+                                <span class="overlay">
+                                   
+                                </span>
+                            </a>
+                                <img src="images/boatos/portfolio/boatos_bianchini_8_2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+
+                        <!-- gallery item -->
+                        <div class="col-md-4 item office">
+                            <div class="picframe">
+                                <a class="image-popup-gallery" href="images/boatos/portfolio/boatos_bianchini_5.jpg">
+                                <span class="overlay">
+                                    
+                                </span>
+                            </a>
+                                <img src="images/boatos/portfolio/boatos_bianchini_5_2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+
+                        <!-- gallery item -->
+                        <div class="col-md-4 item commercial">
+                            <div class="picframe">
+                                <a class="image-popup-gallery" href="images/boatos/portfolio/boatos_bianchini_6.jpg">
+                                <span class="overlay">
+                                    
+                                </span>
+                            </a>
+                                <img src="images/boatos/portfolio/boatos_bianchini_6_2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <!-- close gallery item -->
+
+                       
+
+                    </div>
+             	<div class="spacer-single"></div>
+                </div>
+
+            </section>
+            <!-- section close -->
+
+         <!-- footer begin -->
             <footer>
                 <div class="container">
                     <div class="row">
@@ -284,8 +340,6 @@
                 </div>
                 <a href="#" id="back-to-top"></a>
             </footer>
-            <!-- footer close -->
-
     </div>
 
 
@@ -294,12 +348,20 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
-<!--    <script src='https://www.google.com/recaptcha/api.js' async defer></script>-->
-    <script src="form.js"></script>
-    
+	<script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+	
+
     <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>    
+    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	
+	<script>
+    $(window).on("load", function(){
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
+    });
+    </script>
 
 </body>
 

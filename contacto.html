@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-   <meta charset="utf-8">
+    <meta charset="utf-8">
     <link rel="icon" href="images/icon-boatos.png" type="image/gif" sizes="16x16">
     <title>B O A T O S - Reformas integrales para todos tus espacios</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,14 +23,20 @@
     <link rel="stylesheet" href="css/bg.css" type="text/css">
 
     <!-- color scheme -->
-	<link rel="stylesheet" href="css/colors/yellow.css" type="text/css" id="colors">
+    <link rel="stylesheet" href="css/colors/yellow.css" type="text/css" id="colors">
     
     <!-- revolution slider -->
     <link rel="stylesheet" href="rs-plugin/css/settings.css" type="text/css">
     <link rel="stylesheet" href="css/rev-settings.css" type="text/css">
+
+    <!-- load fonts -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css" type="text/css">
+    <link rel="stylesheet" href="fonts/elegant_font/HTML_CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="fonts/et-line-font/style.css" type="text/css">
+
 </head>
 
-<body class="page-projects">
+<body class="page-contact">
 
     <div id="wrapper">
         <!-- header begin -->
@@ -46,21 +52,20 @@
                                 </a>
                             </div>
                             <!-- logo close -->
-
-	                       
-	                        <!-- mainmenu begin -->
+                           
+                            <!-- mainmenu begin -->
                             <div class="md-flex-col">
                                 <nav class="md-flex">
                                     <ul id="mainmenu">
                                         <li><a href="index.html">Inicio<span></span></a>
                                         </li>
-                                        <li><a href="project-contained-2-cols.html">Proyectos</a>
+                                        <li><a href="proyectos.html">Proyectos</a>
                                             <ul>
-                                                <li><a href="project-details-2.html">Lágrimas Club</a>
+                                                <li><a href="lagrimas-club.html">Lágrimas Club</a>
                                                 </li>
-                                                <li><a href="project-details-1.html">Mondo Gastrobar</a>
+                                                <li><a href="mondo-gastrobar.html">Mondo Gastrobar</a>
                                                 </li>
-                                                <li><a href="project-details-3.html">Bianchini Studio</a>
+                                                <li><a href="bianchini-studio.html">Bianchini Studio</a>
                                                 </li>
                                             </ul>
                                         </li>
@@ -99,17 +104,16 @@
                                                 </li>
                                             </ul>
                                         </li>-->
-                                        <li><a href="renovation-form.html">Contáctanos</a>
+                                        <li><a href="contacto.html">Contáctanos</a>
                                         </li>
                                     </ul>
                                 </nav>
                             <!-- mainmenu close -->
                         </div>
-						</div>
-					</div>
-					</div>
+                    </div>
+                    </div>
                 </div>
-            
+			</div>
         </header>
         <!-- header close -->
 
@@ -118,7 +122,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Proyectos</h1>
+                        <h1>Presupuesto</h1>
                         
                     </div>
                 </div>
@@ -128,91 +132,88 @@
 
         <!-- content begin -->
         <div id="content">
+
             <div class="container">
-
-                <div class="spacer-single"></div>
-
-                <!-- portfolio filter begin -->
                 <div class="row">
-                    <div class="col-md-12">
-                        <ul id="filters" class="wow fadeInUp" data-wow-delay="0s">
-                            <li><a href="#" data-filter=".residential">Residencial</a></li>
-                          
-                            <li><a href="#" data-filter=".commercial">Comercial</a></li>
-                            <li class="pull-right"><a href="#" data-filter="*" class="selected">Todos los proyectos</a></li>
-                        </ul>
 
-                    </div>
-                </div>
-                <!-- portfolio filter close -->
+                    <div class="col-md-8 offset-md-2">
+                        <form name="contactForm" id='contact_form' method="post">
+                            <div id="step-1" class="row">
+                                <div class="col-md-12 mb30">
+                                    <h4><i class="fa fa-home id-color"></i>¿Cuál es el tipo de tu propiedad?</h4>
 
-                <div id="gallery" class="row gallery full-gallery de-gallery pf_4_cols wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="de_form de_radio">
+                                        <div class="radio-img">
+                                            <input id="radio-1a" name="Property_Type" type="radio" value="Residential" checked="checked">
+                                            <label for="radio-1a"><img src="images/select-form/1.jpg">Residencial</label>
+                                        </div>
 
-                    <!-- gallery item -->
-                    <div class="col-md-6 col-sm-6 col-xs-12 item mb30 residential">
-                        <div class="picframe">
-                            <a href="project-details-1.html">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">Mondo Gastrobar</span>
-                                    </span>
-                                </span>
-                            </a>
-                            <img src="images/boatos/portfolio/boatos_project_mondo_1.jpg" alt="" />
+                                        <div class="radio-img">
+                                            <input id="radio-1c" name="Property_Type" type="radio" value="Commercial">
+                                            <label for="radio-1c"><img src="images/select-form/3.jpg">Comercial</label>
+                                        </div>
+
+                                        <div class="radio-img">
+                                            <input id="radio-1e" name="Property_Type" type="radio" value="Other">
+                                            <label for="radio-1e"><img src="images/select-form/5.jpg">Otros</label>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                
+
+                                <div class="col-md-6 mb10">
+                                    
+                                    
+                                </div>
+
+                            </div>
+
+                            <div id="step-2" class="row">
+                                <h4><i class="fa fa-user id-color"></i>Introduce tus datos.</h4>
+
+                                <div class="col-md-6">
+                                    <div id='name_error' class='error'>Por favor, introduce tu nombre.</div>
+                                    <div>
+                                        <input type='text' name='Name' id='name' class="form-control" placeholder="Nombre" required>
+                                    </div>
+
+                                    <div id='email_error' class='error'>Por favor, introduce una dirección de correo electrónico válida.</div>
+                                    <div>
+                                        <input type='email' name='Email' id='email' class="form-control" placeholder="Email" required>
+                                    </div>
+
+                                    <div id='phone_error' class='error'>Por favor, introduce tu número de teléfono.</div>
+                                    <div>
+                                        <input type='text' name='phone' id='phone' class="form-control" placeholder="Teléfono" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div id='message_error' class='error'>Por favor, introduce tu mensaje.</div>
+                                    <div>
+                                        <textarea name='message' id='message' class="form-control" placeholder="Mensaje" required></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+<!--                                    <div class="g-recaptcha" data-sitekey="6LczpsApAAAAAFr_j0ufoguNKBhP6ksgF3fadaQs"></div>-->
+                                    <p id='submit' class="mt20">
+                                        <input type='submit' id='send_message' value='Enviar' class="btn btn-line">
+                                    </p>
+                                </div>
+                            </div>
+                        </form>
+
+                        <div id="success_message" class='success'>
+                            Tu mensaje ha sido enviado con éxito.
+                            Actualiza esta página si deseas enviar más mensajes.
                         </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="col-md-6 col-sm-6 col-xs-12 item mb30 hospitaly">
-                        <div class="picframe">
-                            <a href="project-details-2.html">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">Lágrimas Club</span>
-                                    </span>
-                                </span>
-                            </a>
-
-                            <img src="images/boatos/portfolio/boatos_project_lagrimas_1.jpg" alt="" />
+                        <div id="error_message" class='error'>
+                            Lo sentimos, hubo un error al enviar tu formulario.
+                            Actualiza esta página para enviar el mensaje correctamente.
                         </div>
+
                     </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="col-md-6 col-sm-6 col-xs-12 item mb30 hospitaly">
-                        <div class="picframe">
-                            <a href="project-details-3.html">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">Bianchini Studio</span>
-                                    </span>
-                                </span>
-                            </a>
-
-                            <img src="images/boatos/portfolio/boatos_project_estudio_1.jpg" alt="" />
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                    <!-- gallery item -->
-                    <div class="col-md-6 col-sm-6 col-xs-12 item mb30 residential">
-                        <div class="picframe">
-                            <a href="#">
-                                <span class="overlay">
-                                    <span class="pf_text">
-                                        <span class="project-name">más clientes</span>
-                                    </span>
-                                </span>
-                            </a>
-                            <img src="images/portfolio/pf%20(4).jpg" alt="" />
-                        </div>
-                    </div>
-                    <!-- close gallery item -->
-
-                   
-
-                  
 
                 </div>
             </div>
@@ -244,7 +245,7 @@
                                             href="mailto:comercial@grupoboatos.com?subject=Primer%20contacto&bcc=oscar.valdes@grupoboatos.com">comercial@grupoboatos.com</a></span>
                                     <span><strong>Web:</strong><a href="https://www.grupoboatos.com">www.grupoboatos.com</a></span>
                                     <span><strong>Dirección:</strong>
-									Calle Velázquez, Madrid, España</span>
+                                    Calle Velázquez, Madrid, España</span>
                                 </address>
                             </div>
                         </div>
@@ -285,26 +286,21 @@
             </footer>
             <!-- footer close -->
 
-
     </div>
+
+
 
     <!-- Javascript Files
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
-	<script src="js/jquery.event.move.js"></script>
-    <script src="js/jquery.twentytwenty.js"></script>
-
-   <!-- SLIDER REVOLUTION SCRIPTS  -->
+<!--    <script src='https://www.google.com/recaptcha/api.js' async defer></script>-->
+    <script src="form.js"></script>
+    
+    <!-- SLIDER REVOLUTION SCRIPTS  -->
     <script src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-	
-	<script>
-    $(window).on("load", function(){
-      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
-      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.5, orientation: 'vertical'});
-    });
-    </script>
+    <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>    
+
 </body>
 
 </html>
