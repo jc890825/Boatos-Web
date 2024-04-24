@@ -191,12 +191,12 @@
                                 <div class="col-md-6">
                                     <div id='message_error' class='error'>Por favor, introduce tu mensaje.</div>
                                     <div>
-                                        <textarea name='message' id='message' class="form-control" placeholder="Mensaje"></textarea>
+                                        <textarea name='message' id='message' class="form-control" placeholder="Mensaje" required></textarea>
                                     </div>
                                 </div>
 
                                 <div class="col-md-12">
-                                    <!--<div class="g-recaptcha" data-sitekey="6LczpsApAAAAAFr_j0ufoguNKBhP6ksgF3fadaQs"></div>-->
+<!--                                    <div class="g-recaptcha" data-sitekey="6LczpsApAAAAAFr_j0ufoguNKBhP6ksgF3fadaQs"></div>-->
                                     <p id='submit' class="mt20">
                                         <input type='submit' id='send_message' value='Enviar' class="btn btn-line">
                                     </p>
@@ -205,10 +205,12 @@
                         </form>
 
                         <div id="success_message" class='success'>
-                            Tu mensaje ha sido enviado con éxito. Actualiza esta página si deseas enviar más mensajes.
+                            Tu mensaje ha sido enviado con éxito.
+                            Actualiza esta página si deseas enviar más mensajes.
                         </div>
                         <div id="error_message" class='error'>
                             Lo sentimos, hubo un error al enviar tu formulario.
+                            Actualiza esta página para enviar el mensaje correctamente.
                         </div>
 
                     </div>
@@ -292,7 +294,7 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/designesia.js"></script>
-    <!--<script src='https://www.google.com/recaptcha/api.js' async defer></script>-->
+<!--    <script src='https://www.google.com/recaptcha/api.js' async defer></script>-->
     <script src="form.js"></script>
     
     <!-- SLIDER REVOLUTION SCRIPTS  -->
