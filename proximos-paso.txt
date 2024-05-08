@@ -1,0 +1,14 @@
+3. Ten a mano los siguientes valores de configuración del correo:
+Ejemplo:
+    SMTP -> Host = 'smtp.ionos.es'
+    SMTP -> Username = 'soporte@wpcache.es'
+    SMTP -> Password = 'fdsfdfsdfd'
+    SMTP -> Secure = 'tls' o 'ssl'
+    SMTP -> Port = '587' o '465' creo.
+
+Cuando tengas esto pásame los datos SMTP, hago la prueba en local y seguimos con los paso 2 y 3:
+
+2. Haz una salva del proyecto antes, porque se va a pasar a actualizar el paquete de phpmailer.
+3. Pasar por consola en la raiz del proyecto: composer require phpmailer/phpmailer
+
+
