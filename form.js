@@ -2,7 +2,6 @@ $(function() {
     $('#contact_form').submit(function(e) {
         e.preventDefault();
 
-        var areaSize = $('#area-size').val();
         var name = $('#name').val();
         var email = $('#email').val();
         var phone = $('#phone').val();
@@ -15,10 +14,7 @@ $(function() {
 
         // Form field validation
         var error = false;
-        if(areaSize.length == 0){
-            error = true;
-            $('#area-size').addClass("error_input");
-        }
+
         if(name.length == 0){
             error = true;
             $('#name').addClass("error_input");
