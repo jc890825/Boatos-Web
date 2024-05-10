@@ -35,7 +35,7 @@ $(function() {
         if(!error) {
             $.ajax({
                 type: "POST",
-                url: 'handler.php',
+                url: 'handler-test.php',
                 data: $(this).serialize(),
                 success: function(data) {
                     var responseData = JSON.parse(data);
