@@ -49,7 +49,7 @@ if (strlen($msg) > $messageMaxLength) {
 }
 
 $subject = 'Nuevo contacto de la web'; // Asunto del correo
-$to = 'appleincuba@gmail.com';  // Correo del destinatario
+$to = 'oscar.valdes@grupoboatos.com';  // Correo del destinatario
 
 $emailFrom = "$name <$email>";
 
