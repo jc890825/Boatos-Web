@@ -39,8 +39,7 @@ $(function () {
                 data: $(this).serialize(),
                 success: function (data) {
                     //var responseData = JSON.parse(data);
-                    console.log(data);
-                    if (data.result === 'success') {
+                    if (data === 'success') {
                         $('form#contact_form').hide();
                         $('#success_message').show();
                         $('#error_message').hide();

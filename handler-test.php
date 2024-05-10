@@ -49,7 +49,7 @@ if (strlen($msg) > $messageMaxLength) {
 }
 
 $subject = 'Nuevo contacto de la web'; // Asunto del correo
-$to = 'soporte@wpcache.es';  // Correo del destinatario
+$to = 'appleincuba@gmail.com';  // Correo del destinatario
 
 $emailFrom = "$name <$email>";
 
